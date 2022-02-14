@@ -26,6 +26,5 @@ Valid Credential Template
          Click Element    link=Change
          Select From List By Label    name=data-center-dropdown   ${place}
          Click Element    xpath=//input[@value='Sign up for Free']
-
-#        Title Should Be     ${expected_title}
+         Title Should Be     ${expected_title}
 
